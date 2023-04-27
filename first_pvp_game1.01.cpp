@@ -224,6 +224,7 @@ int main()
         cout << "what do you want to do?" << endl;
         cout << "Abilities your pet: " << endl
             << "1) " << chooseObject[player1]->GetAttackName() << endl;
+        cout << "Enter the number of the ability you want to use: ";
         cin >> numAn;
         if (numAn == 1)
         {
